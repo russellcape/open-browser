@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import MainTab from './components/MainTab';
-import DaughterTab from './components/DaughterTab';
 
 function App() {
   return (
     <div>
-      <MainTab />
-      <DaughterTab />
+      <h1>This is from App.js</h1>
+      <br />
     </div>
   );
 }

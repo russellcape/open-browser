@@ -10,6 +10,7 @@ function MainTab() {
             <br />
             Click on the button below.
         </h2>
+        <br />
         <Link to="/page2">
             <button>
                 Go to Page 2 

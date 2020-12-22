@@ -4,9 +4,19 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import MainTab from "./components/MainTab";
+import DaughterTab from "./components/DaughterTab";
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={MainTab} />
+        <Route path="/page2" component={DaughterTab} />
+      </Switch>
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
